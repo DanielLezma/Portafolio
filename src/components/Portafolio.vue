@@ -1,20 +1,21 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+
 <template>
   <div class="hello">
     <H1>Portafolio</H1>
     <H2>Daniel Ledezma</H2>
 
-    <h3>Enlaces a Páginas</h3>
+    <h3>Enlaces a los repositorios </h3>
     <div class="button-container">
       
       <a href="https://github.com/DanielLezma/LNG_IV.git" target="_blank" class="button">Proyectos</a>
-
       <a href="https://github.com/DanielLezma/ExchangeApp.git" target="_blank" class="button">Proyectos</a>
       <a href="https://github.com/DanielLezma/Calculadora.git" target="_blank" class="button">Proyectos</a>
       <a href="https://github.com/DanielLezma/CV.git" target="_blank" class="button">Proyectos</a>
     </div>
     <br>
 
-    <h2>Acerca de</h2>
+    <h2>Acerca de Daniel</h2>
       <p>Hola soy Daniel Ledezma estudiante de ingenieria en sistemas y este es mi portafolio 
       </p>
       <br>
@@ -22,19 +23,14 @@
    
    
       <h2>Habilidades</h2>
-      <br>
-      <ul class="skills-list">
-          Conocimiento de Windows
           <br>
-          Principios básicos de seguridad informática.
+          Rapido aprendisaje
           <br>
-          Desarrollo de Aplicaciones Móviles en Android estudio
+          Esforzado
           <br>
-          Principios básicos de aplicaciones para Android.
+          Respetuoso
           <br>
-          Uso de herramientas como Android Studio.
-          <br>
-          Adaptabilidad:
+          Adaptable
           <br>
           Facilidad para aprender nuevas tecnologías y adaptarse a cambios.
         <br>
@@ -42,29 +38,15 @@
         <li>Java: medio</li>
         <li>Android: basico</li>
         <li>Vue.js: vacico</li>
+        <li>Html: bacico</li>
+        <li>JavaScrip: basico</li>
+        <li>TypeScrip: bacico</li>
         <br>
-
-      </ul>
-
-    
   </div>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  },
-  methods: {
-    scrollToSection(sectionId) {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }
-}
+
 </script>
 
 <style scoped>
